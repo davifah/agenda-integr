@@ -25,6 +25,6 @@ case $op in
 		;;
 	1)
 #		echo aguarde atualização do programa
-		./adm.sh
+		./loginadm.sh
 		;;
 esac
