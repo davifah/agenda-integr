@@ -6,8 +6,7 @@ pswd=$(dialog \
 	--stdout \
 	--passwordbox 'Digite sua senha' \
 	0 0 )
-echo $pswd
-echo $pswd > /dev/tcp/10.101.0.22/2121
+echo 0:$pswd > /dev/tcp/10.101.0.22/2121
 nc -l 9999 > res
 a=`cat res`
 if [ $a -eq 1 ];
