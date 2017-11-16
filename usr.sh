@@ -14,7 +14,7 @@ do
 			;;
 		1)
 			clear
-			echo "Visualizar -- aguardar att"
+			./visu.sh
 			;;
 	esac
 done

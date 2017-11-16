@@ -6,7 +6,7 @@ pswd=$(dialog \
 	--stdout \
 	--passwordbox 'Digite sua senha' \
 	0 0 )
-echo 0:$pswd > /dev/tcp/10.101.0.22/2121
+echo 0:$pswd > /dev/tcp/10.101.0.22/9999
 nc -l 9999 > res
 a=`cat res`
 if [ $a -eq 1 ];
@@ -16,6 +16,7 @@ then
 		--msgbox 'Logado com sucesso' \
 		0 0
 	./adm.sh
+	exit
 else
 	dialog \
 		--title 'Administrador' \

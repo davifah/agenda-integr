@@ -13,7 +13,7 @@ do
 	        5)
 	                clear
 			echo "Programa encerrado"
-	                break
+			exit
 	                ;;
 	        4)
 			clear
@@ -29,7 +29,7 @@ do
 	                ;;
 		1)
 			clear
-	                echo "Visualizar -- aguardar att"
+			./visu.sh
 	                ;;
 	esac
 done
