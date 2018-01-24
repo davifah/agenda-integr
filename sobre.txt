@@ -1,3 +1,4 @@
-Alunos: Alexsander Justo Vaz e Davi Farhi.\n\n
-Curso: EMI - Informática.\n\n
-Período: INFO I 2017.\n\n
+Alunos: Alexsander Justo Vaz e Davi Farhi.
+Curso: EMI - Informática.
+Período: INFO I 2017.
+Instituto Federal de Educação, Ciência e Tecnologia - Campus Palmas
